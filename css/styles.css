@@ -1,0 +1,137 @@
+/********************TAG Selections***************************/
+body{
+  background-color: #efe9cc;
+  margin: 0;
+  text-align: center;
+  font-family: Rockwell,"Courier Bold",Courier,Georgia,Times,"Times New Roman",serif;
+  /*
+  font-family: 'Pacifico', cursive;
+  font-family: 'Righteous', cursive;
+  font-family: 'PT Sans Caption', sans-serif;
+*/
+}
+
+div {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 5.65rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #8db1ab;
+  font-family: 'Righteous', cursive;
+}
+h2 {
+  color: #11999E;
+  font-family: 'Righteous', cursive;
+  font-weight: normal;
+}
+h3{
+  font-family: 'Righteous', cursive;
+  color: #11999E;
+  line-height: 2;
+}
+a {
+  font-family: 'Righteous', cursive;
+  color: #11999E;
+}
+p{
+  color: #8db1ab;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+/********************Class Selections***************************/
+.top-container{
+  background-color: #efe9cc;
+  position: relative;
+  padding-top: 100px;
+  font-size: 1.35rem;
+}
+
+.mid-container{
+  background-color: #eadea6;
+}
+.bottom-container{
+  background-color: #f6cd90;
+  width: 100%;
+  padding: 30px 0px 30px;
+}
+.contact-me{
+  width: 100%;
+  padding: 0px 0px 20px;
+}
+.mountain{
+  margin-top: 100px;
+  height: 250px;
+}
+.top-cloud{
+  height: 200px;
+  top: -25px;
+  right: 250px;
+  position: absolute;
+}
+.bottom-cloud{
+  height: 200px;
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+.footer-signature{
+  color: white;
+}
+.skillImg{
+  border-radius: 100%;
+  float: left;
+  margin: 0 10% 10% auto;
+  width: 35%;
+  transition: 0.5s;
+}
+.skillImg:hover{
+  border-radius: 10%;
+}
+.skill-row{
+  width: 50%;
+  margin:50px auto 50px auto;
+}
+.skill-hor{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: gray;
+  border-width: 10px;
+  width: 5%;
+}
+.subSkillHeader{
+  text-align: left;
+}
+.subSkillp{
+  text-align: justify;
+  line-height: 2em;
+}
+.example_a {
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #ef962d;
+padding: 20px;
+border-radius: 5px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+}
+
+.example_a:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+/********************ID Selections***************************/
+#comp1{
+  float: right;
+  margin: auto 0 10% 10%;
+  width: 250px;
+}
