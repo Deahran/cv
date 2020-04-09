@@ -1,146 +1,165 @@
-/********************TAG Selections***************************/
 body{
-  background-color: #efe9cc;
-  margin: 0;
-  text-align: center;
-  font-family: Rockwell,"Courier Bold",Courier,Georgia,Times,"Times New Roman",serif;
-  /*
-  font-family: 'Pacifico', cursive;
-  font-family: 'Righteous', cursive;
-  font-family: 'PT Sans Caption', sans-serif;
-*/
-}
-
-div {
-  padding: 10px;
+  font-family: Montserrat;
 }
 
 h1 {
-  font-size: 5.65rem;
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #8db1ab;
-  font-family: 'Righteous', cursive;
+  font-family: Montserrat;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
 }
-h2 {
-  color: #11999E;
-  font-family: 'Righteous', cursive;
-  font-weight: normal;
+h2{
+  font-family: Montserrat, sans-serif;
+  font-weight: bolder;
 }
-h3{
-  font-family: 'Righteous', cursive;
-  color: #11999E;
-  line-height: 2;
-}
-a {
-  font-family: 'Righteous', cursive;
-  color: #11999E;
-  margin: auto 5px auto 5px;
+h3 {
+  font-family: 'Montserrat-bold', sans-serif;
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.5rem;
+  margin-bottom: 5%;
 }
 p{
-  color: #8db1ab;
-  font-family: 'PT Sans Caption', sans-serif;
+  color: #8f8f8f;
 }
 
-/********************Class Selections***************************/
-.top-container{
-  background-color: #efe9cc;
+
+/* Navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 3.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.5rem;
+  font-family: Montserrat;
+}
+
+/* Download Buttons */
+
+.dwnBtn{
+  margin: 5% 3% 5% 0;
+}
+
+/* Image */
+#title{
+  background-color: #ff4c87;
+  color: #fff;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+  margin-top: 10%;
+}
+
+/* Features */
+#features{
+  padding: 7% 15%;
+  background-color: white;
   position: relative;
-  padding-top: 100px;
-  font-size: 1.35rem;
+}
+.feature-divs{
+  text-align: center;
+}
+.feature-icons{
+  color: #ef8172;
+  margin: auto 1.5rem 1.1rem auto;
+  font-size: 2.5rem;
+  text-align: center;
+
+  transition: all 0.4s ease 0s;
+}
+.feature-icons:hover{
+  color:#ff4c68;
+  font-size: 3rem;
 }
 
-.mid-container{
-  background-color: #eadea6;
+/* Testimonials */
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffff;
 }
-.bottom-container{
-  background-color: #f6cd90;
-  width: 100%;
-  padding: 30px 0px 30px;
-}
-.contact-me{
-  width: 100%;
-  padding: 0px 0px 20px;
-}
-.mountain{
-  position: absolute;
-  bottom: 0px;
-  right: 5%;
-  margin-top: 0px;
-  height: 250px;
-}
-.top-cloud{
-  height: 50%;
-  top: 0px;
-  right: 10%;
-  position: absolute;
-}
-.bottom-cloud{
-  height: 50%;
-  position: absolute;
-  top: 200px;
-  left: 15%;
-}
-.footer-signature{
-  color: white;
-  font-size: 1rem;
-}
-.skillImg{
+.testimonial-image{
+  height: 40%;
   border-radius: 100%;
-  float: left;
-  margin: 0 10% 10% auto;
-  width: 35%;
-  max-width: 80%;
-  transition: 0.5s;
+  margin: 20px;
 }
-.skillImg:hover{
-  border-radius: 10%;
-}
-.skill-row{
-  width: 50%;
-  margin:50px auto 50px auto;
-}
-.skill-hor{
-  border-style: none;
-  border-top-style: dotted;
-  border-color: gray;
-  border-width: 10px;
-  width: 5%;
-}
-.subSkillHeader{
-  text-align: left;
-}
-.subSkillp{
-  text-align: justify;
-  line-height: 2em;
-}
-.example_a {
-color: #fff !important;
-text-transform: uppercase;
-text-decoration: none;
-background: #ef962d;
-padding: 20px;
-border-radius: 5px;
-display: inline-block;
-border: none;
-transition: all 0.4s ease 0s;
+.carousel-item{
+  padding: 0% 20%;
 }
 
-.example_a:hover {
-background: #434343;
-letter-spacing: 1px;
--webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
--moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
-transition: all 0.4s ease 0s;
+/* Press */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
-/********************ID Selections***************************/
-#comp1{
-  float: right;
-  margin: auto 0 10% 10%;
-  width: 250px;
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
 }
-#comp2{
-  width: 250px;
+
+/* pricing */
+#pricing{
+  margin: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 4%;
+}
+
+/* Call to Action */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+#cta-text{
+  color: #ffff;
+  font-size: 3rem;
+}
+.cta-div{
+  padding: 100px 0;
+}
+.dwnBtnBottom{
+  margin: 0.5% 2%;
+}
+
+@media (max-width: 1020px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  .testimonial-image{
+    height: 150px;
+    border-radius: 100%;
+    margin: 10px;
+  }
+}
+
+/* Footer */
+#footer{
+  background-color: #ffff;
+  text-align: center;
+}
+
+.footer-icon{
+  margin: 3% 1% 1%;
 }
